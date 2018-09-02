@@ -1,0 +1,72 @@
+#a2-1-3{
+    height:70px;
+    width:70px;
+}
+
+#a2-1-1{
+    font-size:50px;
+    color: red;
+    font-style: italic;
+    
+}
+
+#a2-1{
+    padding : 20px;
+    text-align: left;
+    font-size:36px;
+    background-color:rgba(70,130,180,0.8);
+    height: 110px;
+}
+
+body{
+	background-image:url(http://127.0.0.1/project/img/engieering_page_background.jpg);
+	margin:0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	color:white;
+	z-index: -3;
+}
+
+h2 {
+
+    background-color: rgba(128,138,113,0.8);
+    color: black;
+    width: 700px;
+}
+
+.college_pic {
+
+    width: 450px;
+    height: 170px;
+}
+
+h3 {
+    background-color: rgba(128,0,0,0.8);
+    color: white;
+    width: 100%;
+}
+
+.address {
+    position: relative;
+    top: 10px;
+    background-color: rgba(128,138,113,0.8);
+    color : black;
+    width: 450px;
+    height: 160px;
+}
+
+.details{
+    width: 600px;
+    background-color: rgba(255,255,255,0.6);
+    height : 339px;
+}
+
+.college_details{
+    float: right;
+    position: relative;
+    bottom: 345px;
+    color: black;
+}

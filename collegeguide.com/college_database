@@ -1,0 +1,40 @@
+fields---
+city/state
+specialization
+college name
+
+convention--
+all field entry should be in small letters
+	
+
+CREATE TABLE college_details(
+	id INT NOT NULL AUTO_INCREMENT,
+	college_states VARCHAR(255) NOT NULL,
+	course_offered VARCHAR(255) NOT NULL,
+	college_names VARCHAR(255) NOT NULL,
+	departments VARCHAR(255) NOT NULL,
+	url VARCHAR(255) NOT NULL		
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE users_details(
+	id INT NOT NULL AUTO_INCREMENT,
+	education_stream VARCHAR(255) NOT NULL,
+	course VARCHAR(255) NOT NULL,
+	specialization VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	full_name VARCHAR(255) NOT NULL,
+	mobile_number VARCHAR(255) NOT NULL,
+	user_city VARCHAR(255) NOT NULL, 
+	state1 VARCHAR(255) NOT NULL,
+	state2 VARCHAR(255) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE admins(
+	id INT NOT NULL,
+	admin_name VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	PRIMARY KEY(id)
+);

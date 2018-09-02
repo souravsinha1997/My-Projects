@@ -1,0 +1,88 @@
+<html>
+    <head>
+      	<style>
+					body{
+						background-image: url(https://ef55656a94117504a80bc824-qes3prrufqtq35.netdna-ssl.com/wp-content/uploads/2017/07/635976633888575909649540762_collegefres.jpg);
+						background-color: rgb( 44, 62, 80);
+						height: 100%;
+						background-repeat: no-repeat;
+						background-size: cover;					
+					}				   
+				   .content{
+						background-color: rgba( 93, 109, 126,0.6);
+						position: fixed;
+						top:250px;
+						left:400px;
+						padding-top:30px;
+						border:5px solid rgb(174, 214, 241);
+						z-index: +1;
+						width:500px;
+						height:300px;	
+						color:white;
+						font-weight: bold;	
+						animation-name: content;
+						animation-duration: 2s;
+						animation-timing-function: ease-out;		   
+				   }   
+				   
+					 @keyframes content{
+						from{left:-200px;}
+						to{left:400px;}
+					}						   
+				   
+				   
+					@keyframes header{
+						from{top:-100px;}
+						to{top:20px;}				   
+				   }
+				   h4{
+						border:5px solid white;
+						background-color: rgba( 236, 112, 99 ,0.4);
+						width:500px;
+						height:60px;
+						position: fixed;
+						left:380px;
+						top:20px;
+						font-size: 2.5em;
+						color:white;
+						padding:10px;	
+						animation-name: header;
+						animation-duration: 1.5s;
+						transition-duration:2s;
+						animation-timing-function: ease-in;				   
+				   }	
+				   h4:hover{
+							transform:rotateY(180deg);				   
+				   }
+				   input{
+						position: relative;
+						padding-left: 10px;
+				   }
+				   .subandres{
+						width:200px;
+						height:300px;				   
+				   }
+      	
+      	</style> 
+    
+    </head>
+    
+    <body>
+        <center class="first">
+        <h4> Enter login Details </h4>	
+          	<form method="POST" action="login_submit_for_project.php">
+          		<div class="content">
+            		<br>
+        				EMAIL:<br><br><input type="text" name="email" placeholder="ENTER YOUR REGISTERED EMAIL"><br><br>
+            		PASSWORD:<br><br><input type="password" name="password" placeholder="ENTER YOUR PASSWORD"><br>
+           	   	<br>
+           			<div class="subandres">   	
+	   	        			<input type="submit" name="submit" value="submit"><br><br>
+   	   	     			<input type="reset" name="reset" value="reset">
+						</div>  
+					</div>        	
+          	</form>
+        </center>
+    </body>
+    
+</html>
